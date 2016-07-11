@@ -1,0 +1,184 @@
+@CHARSET "US-ASCII";
+
+.formtable {
+	width: 600px;
+	padding: 10px;
+	border: 1px solid blue;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	font-size: 20px;
+	
+}
+
+input[type=text] {
+	width: 250px;
+	
+}
+
+input[type=password] {
+	width: 250px;
+	
+}
+
+textarea {
+	width: 250px;
+	height: 300px;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: medium;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+.valid {
+	font-size: small;
+	color: green;
+	margin-left: 10px;
+}
+
+
+p.error {
+	font-size: medium;
+}
+
+div.footer {
+	font-size: small;
+	color: gray;
+}
+
+div.content {
+	position: relative;
+	padding: 40px;
+	background-size: cover;
+	background-image: url("${pageContext.request.contextPath}/static/images/tent.jpg");
+
+}
+
+
+
+div.header {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+
+}
+
+a.login {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+	
+	
+	
+	padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: rgba(26, 0, 102, 0.6);
+    color: white; 
+    border: 0px solid #000066;
+}
+
+
+a.newwander {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+	bottom: 10px;
+	color: white;
+	margin: 26%;
+	padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: rgba(26, 0, 102, 0.6);
+    color: white; 
+    border: 0px solid #000066;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+a.newwander:hover {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+	bottom: 15px;
+	color: white;
+	margin: 26%;
+	padding: 12px 22px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 0px solid #000066;
+	    
+}
+
+
+a.title {
+	color: white;
+	font-size: 60px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input.delete {
+	border: 1px solid red;
+}
+
+#Wander_Title{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	font-size: 80px;
+	
+}
+
+#Wander_Description{
+	color: white;
+	font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;	
+}
+
+
+#Wander_Data{
+	color: rgb(255, 240, 179);
+	font-size: 15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;	
+}
+
+
+input[type=submit] {
+	
+	 padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	background-color: rgba(26, 0, 102, 0.6);
+    color: white; 
+    border: 0px solid #000066;
+}
+
+input[type=submit]:hover {
+     background-color: white;
+    color: black;
+}

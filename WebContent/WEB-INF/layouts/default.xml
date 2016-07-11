@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+	<definition name="wanders.base" template="/WEB-INF/templates/default.jsp">
+		<put-attribute name="includes" value=""></put-attribute>
+		<put-attribute name="title" value="TogetherWander Homepage"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/content.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp"></put-attribute>
+	</definition>
+
+	<definition name="home" extends="wanders.base">
+		<put-attribute name="title" value="Together Wander Homepage"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/home.jsp"></put-attribute>
+	</definition>
+
+	<definition name="createwander" extends="wanders.base">
+		<put-attribute name="title" value="Create Wander"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/createwander.jsp"></put-attribute>
+	</definition>
+
+	<definition name="createevent" extends="wanders.base">
+		<put-attribute name="title" value="Create Event"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/createevent.jsp"></put-attribute>
+	</definition>
+
+	<definition name="editevent" extends="wanders.base">
+		<put-attribute name="title" value="Edit Event"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/editevent.jsp"></put-attribute>
+	</definition>
+
+	<definition name="login" extends="wanders.base">
+		<put-attribute name="title" value="Login"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/login.jsp"></put-attribute>
+	</definition>
+
+	<definition name="newaccount" extends="wanders.base">
+		<put-attribute name="includes"
+			value="/WEB-INF/tiles/newaccountscript.jsp"></put-attribute>
+		<put-attribute name="title" value="Create Account"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/newaccount.jsp"></put-attribute>
+	</definition>
+
+	<definition name="accountcreated" extends="wanders.base">
+		<put-attribute name="title" value="Account Created"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/accountcreated.jsp"></put-attribute>
+	</definition>
+
+	<definition name="wanderhome" extends="wanders.base">
+		<put-attribute name="title" value="Wander"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/wanderhome.jsp"></put-attribute>
+	</definition>
+
+	<definition name="error" extends="wanders.base">
+		<put-attribute name="title" value="Error"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/error.jsp"></put-attribute>
+	</definition>
+
+	<definition name="newaccount" extends="wanders.base">
+		<put-attribute name="title" value="New Account"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/newaccount.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>
+
+
+
+
+
+
